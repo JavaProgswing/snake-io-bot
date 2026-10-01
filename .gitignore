@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# runtime / training artifacts (not shipped)
+debug_*/
+sessions/
+live*/
+labelset/
+model_cmp/
+*.pt
+*.onnx
+*.log
+*.err
+*.out

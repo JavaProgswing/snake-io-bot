@@ -1,0 +1,52 @@
+{
+  "adb": "adb",
+  "server_jar": "scrcpy-server",
+  "server_version": "4.0",
+  "package": "com.netflix.NGP.Snakeio",
+  "port": 27183,
+  "max_size": 1184,
+  "max_fps": 30,
+  "video_bit_rate": 4000000,
+  "ui": {
+    "menu_play": [
+      0.9,
+      0.82
+    ],
+    "next_btn": [
+      0.52,
+      0.81
+    ],
+    "start_big": [
+      0.71,
+      0.89
+    ],
+    "joystick_anchor": [
+      0.183,
+      0.747
+    ],
+    "joystick_radius_frac": 0.05,
+    "boost_button": [
+      0.867,
+      0.747
+    ]
+  },
+  "strategy": {
+    "decision_hz": 20,
+    "reflex_dist_frac": 0.075,
+    "coil_min_area": 6500,
+    "num_rays": 32,
+    "ray_len_frac": 0.42,
+    "safe_dist_frac": 0.1,
+    "panic_dist_frac": 0.055,
+    "corridor_width_frac": 0.055,
+    "food_decay": 0.009,
+    "turn_smooth": 0.35,
+    "boost_min_score": 220,
+    "coil_turn_deg": 100
+  },
+  "score": {
+    "start_score": 10,
+    "food_value": 1.6
+  },
+  "revive_max": 3
+}
